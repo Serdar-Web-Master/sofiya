@@ -27,7 +27,7 @@ body {
 .slider__line {
     display: flex;
     height: 200px;
-    width: 600px;
+    /* width: 600px; */
 }
 
 /* lllllllllllllll */
@@ -91,4 +91,13 @@ body {
     background-color: rgb(9, 185, 126);
 }
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 0, 255);
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+    line-height: 1.2;
+    font-style: italic;
 }
