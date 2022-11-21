@@ -10,11 +10,20 @@ btn__vpered.addEventListener("click",vpered);
 btn__nazad.addEventListener("click",nazad)
 let x = 0
 function vpered () {
-   x -= 200
+   if (x > -1000) {
+      x -= 200
+      slider__line.style.marginLeft = x + "px"
+   }
+  else {
+   x = 0
    slider__line.style.marginLeft = x + "px"
+  }
 }
 
 function nazad () {
-   x += 200;
-   slider__line.style.marginLeft = x + "px"
+   if (x<0) {
+      x += 200;
+      slider__line.style.marginLeft = x + "px"
+   }
+  
 }
