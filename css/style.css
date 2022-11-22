@@ -11,6 +11,9 @@ body {
     font-size: 50px;
     color: blue;
     margin-bottom: 15px;
+    line-height: 1.2;
+    font-style: italic;
+    font-weight: 900;
 }
 .container {
 }
@@ -60,7 +63,7 @@ body {
 }
 .flip__back {
       transform: rotateY(-180deg);
-      background-color: rgb(25, 0, 255);
+      /* background-color: rgb(25, 0, 255); */
       backface-visibility: hidden;
 }
 .flip:hover .flip__body {
