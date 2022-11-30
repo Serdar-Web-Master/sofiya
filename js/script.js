@@ -10,7 +10,7 @@ btn__vpered.addEventListener("click",vpered);
 btn__nazad.addEventListener("click",nazad)
 let x = 0
 function vpered () {
-   if (x > -1600) {
+   if (x > -1800) {
       x -= 200
       slider__line.style.marginLeft = x + "px"
    }
